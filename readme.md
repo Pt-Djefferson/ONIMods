@@ -2,5 +2,5 @@
 
 | Mod | Steam | Direct Download | Version |
 |-|-|-|-|
-| Blueprints | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2435244304) | [Direct Download](https://github.com/Pt-Djefferson/ONIMods/releases/download/2.4.9.10/Blueprints.zip) | 2.4.9.10 |
-| Pliers | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2479475997) | [Direct Download](https://github.com/Pt-Djefferson/ONIMods/releases/download/2.4.9.10/Pliers.zip) | 1.2.9.10 |
+| Blueprints | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2435244304) | [Direct Download](https://github.com/Pt-Djefferson/ONIMods/releases/download/v2.4.9.10/Blueprints.zip) | 2.4.9.10 |
+| Pliers | [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2479475997) | [Direct Download](https://github.com/Pt-Djefferson/ONIMods/releases/download/v2.4.9.10/Pliers.zip) | 1.2.9.10 |
