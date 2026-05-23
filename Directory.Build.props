@@ -8,7 +8,7 @@
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
 
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
 	<Deterministic>true</Deterministic>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
@@ -18,7 +18,7 @@
 	<LangVersion>9</LangVersion>
 
     <!-- то, что ниже из конфига PLib -->
-    <TargetFramework>net471</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <Product>ONIMods</Product>
     <Authors>Mayall, Pt_Djefferson</Authors>
     <Copyright>Copyright ©Mayall 2020</Copyright>
@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(UsesPLib)' != 'false' ">
-    <PackageReference Include="PLib" Version="4.16.0" />
+    <PackageReference Include="PLib" Version="4.24.0" />
   </ItemGroup>
 
   <ItemGroup>
