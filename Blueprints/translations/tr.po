@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Application: Oxygen Not Included: Blueprints\n"
+
+msgctxt "Blueprints.BlueprintsStrings.ACTION_MATERIALS_TITLE"
+msgid "Change Blueprint Materials"
+msgstr "Blueprint Malzemelerini Değiştir"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_USE_MATERIALSBLUEPRINT"
+msgid "Press {0} to change materials."
+msgstr "Malzemeleri değiştirmek için {0} tuşuna bas."
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_TITLE"
+msgid "Materials: {0}"
+msgstr "Malzemeler: {0}"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_ROW"
+msgid "{0}  ×{1}"
+msgstr "{0}  ×{1}"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_HEADER_MATERIAL"
+msgid "BUILDING / MATERIAL"
+msgstr "YAPI / MALZEME"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_HEADER_NEW"
+msgid "NEW MATERIAL"
+msgstr "YENİ MALZEME"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_SLOT"
+msgid "Material: {0}"
+msgstr "Malzeme: {0}"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_SLOT_N"
+msgid "Material {0}: {1}"
+msgstr "{0}. malzeme: {1}"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_KEEP"
+msgid "(keep)"
+msgstr "(aynı kalsın)"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_APPLY"
+msgid "APPLY"
+msgstr "UYGULA"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_CANCEL"
+msgid "CANCEL"
+msgstr "İPTAL"
+
+msgctxt "Blueprints.BlueprintsStrings.STRING_BLUEPRINTS_MATERIALS_DONE"
+msgid "Materials changed: {0} (skipped, not allowed: {1})"
+msgstr "Malzemesi değişen: {0} (uygun olmadığı için atlanan: {1})"

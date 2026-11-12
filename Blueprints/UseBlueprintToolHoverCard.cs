@@ -41,6 +41,9 @@ namespace Blueprints {
                     drawer.NewLine(20);
 
                     drawer.DrawText(string.Format(BlueprintsStrings.STRING_BLUEPRINTS_USE_DELETEBLUEPRINT, UI.FormatAsHotkey("[" + GameUtil.GetActionString(Integration.BlueprintsDeleteAction.GetKAction()) + "]")), Styles_Instruction.Standard);
+                    drawer.NewLine(20);
+
+                    drawer.DrawText(string.Format(BlueprintsStrings.STRING_BLUEPRINTS_USE_MATERIALSBLUEPRINT, UI.FormatAsHotkey("[" + GameUtil.GetActionString(Integration.BlueprintsMaterialsAction.GetKAction()) + "]")), Styles_Instruction.Standard);
 
                     if (prefabErrorCount > 0) {
                         drawer.NewLine(32);

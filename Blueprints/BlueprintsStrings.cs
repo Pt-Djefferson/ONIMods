@@ -39,6 +39,9 @@ namespace Blueprints {
         public static string ACTION_DELETE_KEY = "Blueprints.multi.delete";
         public static LocString ACTION_DELETE_TITLE = "Delete Blueprint/Snapshot";
 
+        public static string ACTION_MATERIALS_KEY = "Blueprints.use.materials";
+        public static LocString ACTION_MATERIALS_TITLE = "Change Blueprint Materials";
+
 
         // Tool strings
         public static LocString STRING_BLUEPRINTS_CREATE_NAME = "New Blueprint";
@@ -65,6 +68,18 @@ namespace Blueprints {
         public static LocString STRING_BLUEPRINTS_USE_MOVEDBLUEPRINT = "Moved \"{0}\" to \"{1}\"";
         public static LocString STRING_BLUEPRINTS_USE_NAMEBLUEPRINT = "Press {0} to rename blueprint.";
         public static LocString STRING_BLUEPRINTS_USE_DELETEBLUEPRINT = "Press {0} to delete blueprint.";
+        public static LocString STRING_BLUEPRINTS_USE_MATERIALSBLUEPRINT = "Press {0} to change materials.";
+
+        public static LocString STRING_BLUEPRINTS_MATERIALS_TITLE = "Materials: {0}";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_ROW = "{0}  ×{1}";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_HEADER_MATERIAL = "BUILDING / MATERIAL";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_HEADER_NEW = "NEW MATERIAL";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_SLOT = "Material: {0}";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_SLOT_N = "Material {0}: {1}";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_KEEP = "(keep)";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_APPLY = "APPLY";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_CANCEL = "CANCEL";
+        public static LocString STRING_BLUEPRINTS_MATERIALS_DONE = "Materials changed: {0} (skipped, not allowed: {1})";
         public static LocString STRING_BLUEPRINTS_USE_ERRORMESSAGE = "This blueprint contained {0} misconfigured or missing prefabs which have been omitted!";
         public static LocString STRING_BLUEPRINTS_USE_SELECTEDBLUEPRINT = "Selected \"{0}\" ({1}/{2}) from \"{3}\" ({4}/{5})";
         public static LocString STRING_BLUEPRINTS_USE_FOLDEREMPTY = "Selected folder \"{0}\" is empty!";
