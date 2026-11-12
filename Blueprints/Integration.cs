@@ -29,6 +29,7 @@ namespace Blueprints {
         internal static PAction BlueprintsCycleBlueprintsPrevAction { get; private set; }
         internal static PAction BlueprintsSnapshotAction { get; private set; }
         internal static PAction BlueprintsDeleteAction { get; private set; }
+        internal static PAction BlueprintsMaterialsAction { get; private set; }
 
         [PLibMethod(RunAt.BeforeDbInit)]
         internal static void BeforeDbInit()
@@ -66,6 +67,8 @@ namespace Blueprints {
                 BlueprintsStrings.ACTION_SNAPSHOT_TITLE, new PKeyBinding());
             BlueprintsDeleteAction = new PActionManager().CreateAction(BlueprintsStrings.ACTION_DELETE_KEY,
                 BlueprintsStrings.ACTION_DELETE_TITLE, new PKeyBinding(KKeyCode.Delete));
+            BlueprintsMaterialsAction = new PActionManager().CreateAction(BlueprintsStrings.ACTION_MATERIALS_KEY,
+                BlueprintsStrings.ACTION_MATERIALS_TITLE, new PKeyBinding(KKeyCode.Insert));
 
             Utilities.AttachFileWatcher();
 

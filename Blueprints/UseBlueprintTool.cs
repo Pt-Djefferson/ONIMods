@@ -156,6 +156,10 @@ namespace Blueprints {
                     PUIElements.ShowConfirmDialog(GameScreenManager.Instance.GetParent(GameScreenManager.UIRenderTarget.ScreenSpaceOverlay), "Are you sure you want to delete \"" + BlueprintsState.SelectedBlueprint.FriendlyName + "\"?", OnConfirmDelegate, null, "YES", "NO");
                 }
 
+                else if (BlueprintsState.HasBlueprints() && buttonEvent.TryConsume(Integration.BlueprintsMaterialsAction.GetKAction())) {
+                    MaterialSwap.ShowDialog();
+                }
+
                 else if (BlueprintsState.LoadedBlueprints.Count > 0) {
                     if (BlueprintsState.SelectedFolder.BlueprintCount > 1) {
                         if (buttonEvent.TryConsume(Integration.BlueprintsCycleBlueprintsNextAction.GetKAction())) {
